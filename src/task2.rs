@@ -1,4 +1,4 @@
-pub(crate) fn task2() {
+pub(crate) fn run() {
     let input = std::fs::read_to_string("data/input2.txt").unwrap();
 
     let mut total_score_a: i32 = 0;

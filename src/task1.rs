@@ -1,4 +1,4 @@
-pub(crate) fn task1() {
+pub(crate) fn run() {
     let input = std::fs::read_to_string("data/input1.txt").unwrap();
 
     let mut most = 0;
