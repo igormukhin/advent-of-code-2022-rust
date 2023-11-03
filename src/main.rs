@@ -1,5 +1,5 @@
-mod task5;
+mod task6;
 
 fn main() {
-    task5::runB();
+    task6::run();
 }
