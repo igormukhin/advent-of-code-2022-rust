@@ -46,7 +46,7 @@ impl ToString for Path {
 }
 
 pub(crate) fn run() {
-    let input = fs::read_to_string("data/input7.txt").unwrap();
+    let input = fs::read_to_string("../../data/input7.txt").unwrap();
 
     let mut curr = Path::root();
     let mut dir_sizes: HashMap<String, u64> = HashMap::new();
